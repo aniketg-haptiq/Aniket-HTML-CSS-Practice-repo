@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: lightblue;
+    --secondary-color : lightcoral;
+    --ternary-color :lightgreen ;
+    --container-width: 600px ;
+    --container-width-large: 1100px ;
+
+}
+
+header{
+    background-color: var(--primary-color);
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* .container{
+    --primary-color : lightblue ;
+} */
+.container{
+    display: flex;
+    max-width: var(--container-width);
+    margin: 30px auto;
+    gap: 20px;
+}
+
+.box{
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.box1{
+    background-color: var(--primary-color);
+}
+.box2{
+    background-color: var(--secondary-color);
+}
+.box3{
+    background-color: var(--ternary-color);
+}

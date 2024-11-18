@@ -1,0 +1,50 @@
+/* global selector */
+body, html{
+    font-family: "Arial", sans-serif;
+    border: 3px solid red;
+}
+
+
+/* Type selectors */
+h2 {
+    color: red;
+    font-size: 30px;
+}
+
+a{
+    color: blue;
+    text-decoration: underline;
+}
+
+/* class electors */
+.sporty{
+    color: blueviolet;
+}
+
+.casual{
+    color: blue;
+}
+
+.formal{
+    color: brown;
+}
+
+/* ID selectors */
+#container{
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+}
+
+
+/* multiple selectors */
+
+.sprty, .casual{
+    font-size: 35px;
+}
+
+
+/* Descendant selector */
+#container p {
+    background-color: aquamarine;
+}

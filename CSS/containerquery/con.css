@@ -1,0 +1,42 @@
+p{
+    padding: 2rem;
+}
+
+
+main{
+    container-type: inline-size;
+    width: 100%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: lightblue;
+}
+
+main p{
+    background-color: lightcoral;
+}
+
+@container (max-width: 992px)
+{
+    main p{
+        background: lightgray;
+    }
+}
+
+body{
+    display: flex;
+}
+aside{
+    container-type: inline-size;
+    container-name: aside;
+    flex: 0 0 30%;
+    background-color: grey;
+    padding: 20px;
+    margin: 10px; 
+}
+
+@container aside(max-width: 300px)
+{
+    aside p{
+        background-color: green;
+}
+}
